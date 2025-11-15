@@ -1,1 +1,1 @@
-print ("A")
+print ("test2")
