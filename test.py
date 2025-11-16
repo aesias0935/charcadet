@@ -13,8 +13,8 @@
             return 'F'
     print(Test.grades())"""
 
-an = "*"
+"""an = "*"
 for i in range(5):
     print(an)
-    an += "*"
+    an += "*"""
 
