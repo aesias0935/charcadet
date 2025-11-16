@@ -1,4 +1,14 @@
-sn = input("숫자를 입력하시오 : ")
-an = int(sn)
-
-print(f"입력한 숫자는 {an}입니다.")
+class Test:
+    def grades():
+        score = int(input("점수를 입력하시오: "))
+        if score >= 90:
+            return 'A'
+        elif score >= 80:
+            return 'B'
+        elif score >= 70:
+            return 'C'
+        elif score >= 60:
+            return 'D'
+        else:
+            return 'F'
+print(Test.grades())
