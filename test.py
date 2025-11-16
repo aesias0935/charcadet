@@ -1,4 +1,4 @@
-class Test:
+"""class Test:
     def grades():
         score = int(input("점수를 입력하시오: "))
         if score >= 90:
@@ -11,4 +11,10 @@ class Test:
             return 'D'
         else:
             return 'F'
-print(Test.grades())
+    print(Test.grades())"""
+
+an = "*"
+for i in range(5):
+    print(an)
+    an += "*"
+
