@@ -18,3 +18,9 @@ for i in range(5):
     print(an)
     an += "*"""
 
+"""an = input()
+print(an, an, an)"""
+
+#6023
+a = input().split(":")
+print(a[1])
